@@ -19,7 +19,7 @@
         body {
             -webkit-font-smoothing: antialiased;
             font-family: Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
-            background-image: url('https://2.bp.blogspot.com/-O-PNbVhonMc/UH7n1GgjohI/AAAAAAAAAQ8/QjcoNIlThIE/s1600/IMG_0280.JPG');
+            background-image: url('https://i.pinimg.com/originals/3e/af/49/3eaf49d075d64a7c12ebb570cf7d5d7e.jpg');
             font-size: 85%;
             margin: 0;
         }
@@ -65,20 +65,7 @@
             <b id="d"></b> 天 <b id="h"></b> 时 <b id="m"></b> 分 <b id="s"></b> 秒
         </div>
     </div>
-
-    <script>
-        function timer() {
-            var now = new Date();
-            var endTime = new Date(2019, 22, 8, 8);
-            var t = endTime - now;
-            document.getElementById('d').innerHTML = ~~(t / 1000 / 60 / 60 / 24);
-            document.getElementById('h').innerHTML = ~~(t / 1000 / 60 / 60 % 24);
-            document.getElementById('m').innerHTML = ~~(t / 1000 / 60 % 60);
-            document.getElementById('s').innerHTML = ~~(t / 1000 % 60);
-            setTimeout(timer, 1000);
-        }
-        timer();
-    </script>
+    
 </body>
 
 </html>
